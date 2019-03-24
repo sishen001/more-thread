@@ -33,7 +33,7 @@ public class Callable01  implements Callable<String> {
 
   @Override
   public String call() throws Exception {
-    return "活好人帅";
+    return "活好人帅1";
   }
 
   public static void main(String[] args) throws ExecutionException, InterruptedException {
