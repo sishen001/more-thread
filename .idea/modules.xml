@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/juc01/juc-01.iml" filepath="$PROJECT_DIR$/juc01/juc-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/juc02/juc02.iml" filepath="$PROJECT_DIR$/juc02/juc02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/juc03/juc03.iml" filepath="$PROJECT_DIR$/juc03/juc03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/juc04/juc04.iml" filepath="$PROJECT_DIR$/juc04/juc04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tuling-juc.iml" filepath="$PROJECT_DIR$/.idea/tuling-juc.iml" />
+    </modules>
+  </component>
+</project>
