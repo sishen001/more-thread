@@ -7,6 +7,9 @@
     <groupId>com.tl.think.demo</groupId>
     <artifactId>think-threadpool-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
-    
 </project>
