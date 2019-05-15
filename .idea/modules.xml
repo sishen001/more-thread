@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-collection/java-collection.iml" filepath="$PROJECT_DIR$/java-collection/java-collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/more-thread.iml" filepath="$PROJECT_DIR$/.idea/more-thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-pool/threadpool.iml" filepath="$PROJECT_DIR$/thread-pool/threadpool.iml" />
     </modules>
