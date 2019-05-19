@@ -56,27 +56,25 @@ public class MyBlokQueue {
 
 
     public  boolean  offer(Object o) {
-        lock.lock();
         try{
-            if(size >= defaultQueueSize ){
-                return false;
-            }
-            if(tail > maxIndex){
-                tail = 0;
-            }
-            queue[tail] = o;
-            size ++;
-            tail++;
-            if(size == 1){
-                //通知等待线程去获取队列元素
-                synchronized (queue){
+            //通知等待线程去获取队列元素
+            synchronized (queue){
+                if(size >= defaultQueueSize ){
+                    return false;
+                }
+                if(tail > maxIndex){
+                    tail = 0;
+                }
+                queue[tail] = o;
+                size ++;
+                tail++;
+                if(size == 1){
                     queue.notifyAll();
                 }
+
             }
         }catch(Exception e){
             e.printStackTrace();
-        }finally {
-            lock.unlock();
         }
         return true;
     }

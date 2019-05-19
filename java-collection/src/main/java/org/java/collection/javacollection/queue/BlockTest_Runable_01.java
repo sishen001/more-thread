@@ -14,8 +14,11 @@ public class BlockTest_Runable_01 implements Runnable{
     @Override
     public void run() {
         while(true){
-
-            System.out.println(Thread.currentThread().getName()+"获取阻塞队列的值"+blokQueue.get()+"--当前阻塞队列大小="+blokQueue.size());
+            try{
+                System.out.println(Thread.currentThread().getName()+"获取阻塞队列的值"+blokQueue.get()+"--当前阻塞队列大小="+blokQueue.size());
+            }catch(Exception e){
+                e.printStackTrace();
+            }
         }
     }
 }
