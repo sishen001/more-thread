@@ -3,6 +3,9 @@ package org.java.collection.javacollection.queue;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * 自定义队列 
+ */
 public class Queue_01 {
 
     private Queue queue;

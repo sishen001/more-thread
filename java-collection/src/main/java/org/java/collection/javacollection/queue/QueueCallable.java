@@ -2,6 +2,9 @@ package org.java.collection.javacollection.queue;
 
 import java.util.concurrent.Callable;
 
+/**
+ * 自定义队列 验证是否线程安全辅助类
+ */
 public class QueueCallable implements Callable {
 
     private MyValidateNotSafeQueue queue ;

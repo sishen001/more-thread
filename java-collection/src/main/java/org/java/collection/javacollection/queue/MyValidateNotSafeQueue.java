@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * 自定义队列
+ * 自定义队列 验证线程是否安全主类
  */
 public class MyValidateNotSafeQueue {
 
